@@ -102,3 +102,8 @@ const searchPizza = (e) => {
   form.reset();
 };
 
+function init(){
+  saveLocalStorage(pizzas);
+  renderPizzas(pizzas);
+}
+init();
